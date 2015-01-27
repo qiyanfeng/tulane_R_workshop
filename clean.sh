@@ -16,7 +16,7 @@ mv -v China.cc.txt.clean China.cc.txt
 # fix Niger file - we just want the top 12"
 
 echo "fixing"
-head -n 12 Niger.cc.txt > Niger.cc.txt. clean
+head -n 12 Niger.cc.txt > Niger.cc.txt.clean
 mv -v Niger.cc.txt.clean Niger.cc.txt
 
 # back to main folder
